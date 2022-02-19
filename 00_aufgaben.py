@@ -1,7 +1,7 @@
 # Menü für die Struktogrammaufgaben
 
 
-# Aufgabe 1 Euro-Kuna umrechner
+## Aufgabe 1 Euro-Kuna umrechner
 def aufgabe_1():
     # 1 Euro = 7.4 Kuna
     print()
@@ -18,7 +18,7 @@ def aufgabe_1():
     print()
 
 
-# Aufgabe 2 Führerscheintest
+## Aufgabe 2 Führerscheintest
 def aufgabe_2():
     print()
     print("--- Wilkommen zum Führerscheintest. ---")
@@ -35,8 +35,7 @@ def aufgabe_2():
     print()
 
 
-# Aufgabe 3 Das Zinsproblem
-# ??? Euro brauchen bei 4,5% Zins wie lange bis sie verdreifacht sind?
+## Aufgabe 3 Das Zinsproblem
 def aufgabe_3():
     print()
     print("---- Willkommen zum Zinsrechner. ----")
@@ -61,12 +60,8 @@ def aufgabe_3():
     print()
     
     
-# Aufgabe 4 Kindergeld
+## Aufgabe 4 Kindergeld
 def aufgabe_4():
-    # Kindergeld wird nur gezahlt, wenn die Familie genau 2 Kinder hat. 
-    # Ebenso darf das Alter eines Kindes 18 Jahre nicht überschreiten. 
-    # Wenn zum Beispiel eine Familie 2 Kinder hat und eines 18 Jahre alt ist, 
-    # werden nur 1 Kind Kindergeld bezahlt. Kindergeld ist pro Kind 100 Euro.
     print()
     print("--- Wilkommen zum Kindergeld Rechner! ---")
     print()
@@ -101,7 +96,7 @@ def aufgabe_4():
     print()
     
     
-# Aufgabe 5.1 Die Strafarbeit
+## Aufgabe 5.1 Die Strafarbeit
 def aufgabe_5():
     countdown=int(50)
     countdown_old=countdown
@@ -142,7 +137,8 @@ def aufgabe_5():
     print()
 
 
-# Start des Programmms
+## Start des Programmms
+
 print()
 print(" █████ ███████████            █████ █████  ████      ")
 print(" ░███ ░█░░░███░░░█           ░░███ ░░███  ░░███      ")
@@ -204,3 +200,5 @@ elif x==5:
 elif x==0:
         print("Beenden")
         print()
+        
+##Programmende
